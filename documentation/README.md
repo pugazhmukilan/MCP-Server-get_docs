@@ -2,27 +2,28 @@
 
 ![MCP Server in Action](image.png){: style="width:50%;" }
 
-A Model Context Protocol (MCP) server that fetches up-to-date Flutter documentation and Stack Overflow solutions directly through Claude Desktop.
+A **Model Context Protocol (MCP) server** that provides instant access to official Flutter documentation and Stack Overflow solutions directly inside **Claude Desktop**.  
 
-## Features
+## ✨ Features
 
-- 🔍 **Instant Access** to official Flutter documentation
-- 💡 **Stack Overflow Integration** for community solutions
-- 🚀 **Context-Aware Answers** combining multiple sources
-- ⚡ **JSON-RPC 2.0 Compliant** for seamless Claude integration
+- 🔍 **Instant Access** – Fetches the latest Flutter documentation from [`docs.flutter.dev`](https://docs.flutter.dev/)  
+- 💡 **Community Solutions** – Integrates with **Stack Overflow** to provide real-world developer fixes  
+- 🚀 **Context-Aware Answers** – Combines official docs with community insights for better problem-solving  
+- ⚡ **JSON-RPC 2.0 Compliant** – Ensures seamless integration with Claude Desktop  
 
-## How It Works
+## ⚙️ How It Works
 
-1. Ask Claude your Flutter development question
-2. The MCP server:
-   - Searches Flutter documentation (`docs.flutter.dev`)
-   - Scans Stack Overflow for relevant solutions
-   - Combines the best information
-3. Returns a comprehensive, up-to-date answer
+1. Ask Claude your Flutter development question.  
+2. The MCP server:  
+   - Searches **Flutter documentation**  
+   - Looks up **Stack Overflow** discussions  
+   - Merges the best information into a unified answer  
+3. Claude presents the response in real time.  
 
-Example workflow:
+### 🔄 Example Workflow
 ```text
-I have a problem in stack tree of flutter find different solution from its documentation
+Q: I have a problem in stack tree of Flutter, find different solutions from its documentation.
 
-> Server searches Flutter docs and Stack Overflow
-> Returns solutions including proper Stack widget usage and clipBehavior solutions
+> MCP Server:
+- Searches Flutter docs and Stack Overflow
+- Returns multiple solutions including proper `Stack` widget usage and `clipBehavior` fixes
